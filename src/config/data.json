@@ -31,7 +31,7 @@
             "type": "image"
           },
           {
-            "src": "/src/assets/videos/video1.mp4",
+            "src": "/assets/videos/video1.mp4",
             "type": "video"
           }
         ]

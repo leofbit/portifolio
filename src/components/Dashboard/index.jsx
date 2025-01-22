@@ -1,6 +1,6 @@
 import { Box, Typography, Grid } from "@mui/material";
 import * as styles from "./Dashboard.style";
-import accountImg from "../../assets/images/account.png";
+import accountImg from "/assets/images/account.png";
 import data from '../../config/data.json';
 import ProjectCard from "./ProjectCard";
 import ExperienceCard from "./ExperienceCard";
