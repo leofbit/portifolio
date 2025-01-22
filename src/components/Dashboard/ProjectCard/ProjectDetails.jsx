@@ -75,7 +75,7 @@ export default function ProjectModal({ open, onClose, project }) {
                 <Grid sx={styles.fullScreenModalContainer}>
                     <IconButton 
                         onClick={handleCloseFullScreen} 
-                        sx={styles.closeButton}>
+                        sx={{...styles.closeButton, color:'white'}}>
                         <CloseIcon />
                     </IconButton>
                     <img 
