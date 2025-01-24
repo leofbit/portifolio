@@ -1,4 +1,4 @@
-# 🌟 Meu Portfólio - React JS & Material UI
+# 🌟 Portfólio - React JS & Material UI
 
 Este repositório contém meu portfólio de desenvolvedor, construído utilizando **React JS** e **Material UI**, com o intuito de informações profissionais, experiências e projetos. O portfólio é **totalmente dinâmico e customizável**, permitindo adaptações conforme a necessidade.
 
@@ -61,10 +61,10 @@ Este repositório contém meu portfólio de desenvolvedor, construído utilizand
 ---
 
 ## 💡 Personalização
-Crie um JSON e hospede o arquivo em algum servidor, Ex.:`https://gist.github.com/`
-Os nomes das skills são baseadas pelo nome dos ícones da biblioteca `https://simpleicons.org/`
-O nome do Icon em "highlights" esta na biblioteca do Material UI `https://mui.com/material-ui/material-icons/` 
-Todas as informações são dinâmicas e podem ser personalizadas facilmente editando seu JSON:
+-- Crie um JSON e hospede o arquivo em algum servidor, Ex.:`https://gist.github.com/`
+-- Os nomes das skills são baseadas pelo nome dos ícones da biblioteca `https://simpleicons.org/`
+-- O nome do Icon em "highlights" esta na biblioteca do Material UI `https://mui.com/material-ui/material-icons/` 
+-- Todas as informações são dinâmicas e podem ser personalizadas facilmente editando seu JSON:
 ```json
 {
     "name": "Seu Nome",
