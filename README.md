@@ -10,8 +10,9 @@ Este repositório contém meu portfólio de desenvolvedor, construído utilizand
 - **Temas dinâmicos** (modo claro e escuro).
 - **Seções personalizáveis**, como:
   - Sobre Mim
-  - Experiências Profissionais
   - Projetos
+  - Experiências Profissionais
+  - Formação Acadêmica
   - Contato
 - **Carrossel de imagens** para exibição de projetos.
 
@@ -61,9 +62,9 @@ Este repositório contém meu portfólio de desenvolvedor, construído utilizand
 ---
 
 ## 💡 Personalização
-- Crie um JSON e hospede o arquivo em algum servidor, Ex.:`https://gist.github.com/`
-- Os nomes das skills são baseadas pelo nome dos ícones da biblioteca `https://simpleicons.org/`
-- O nome do Icon em "highlights" esta na biblioteca do Material UI `https://mui.com/material-ui/material-icons/` 
+- Crie um JSON e hospede o arquivo em algum servidor, Ex.: [**gist.github.com**](https://gist.github.com/)
+- Os nomes das skills são baseadas pelo nome dos ícones da biblioteca [**simpleicons**](https://simpleicons.org/)
+- O nome do Icon em "highlights" esta na biblioteca do Material UI [**material-icons**](https://mui.com/material-ui/material-icons/) 
 - Todas as informações são dinâmicas e podem ser personalizadas facilmente editando seu JSON:
 ```json
 {
