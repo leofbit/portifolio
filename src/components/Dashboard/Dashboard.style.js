@@ -15,10 +15,10 @@ export const abboutMe = {
   flexDirection: 'column',
   justifyContent: "center",
   gap: '1rem',
-  };
+};
   
 export const gridButtonSkills = {
-  margin: '4rem 0'
+  margin: '2rem 0'
 };
 
 export const stackButtons = {
