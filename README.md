@@ -54,31 +54,18 @@ Este repositório contém meu portfólio de desenvolvedor, construído utilizand
    # ou
    yarn start
    ```
-5. Informe o caminho do seu JSON em src/config.js
+5. Informe a URL do seu JSON em src/config.js
 
 6. Acesse no navegador: `http://localhost:3000`
 
 ---
 
 ## 💡 Personalização
-
+Crie um JSON e hospede o arquivo em algum servidor, Ex.:`https://gist.github.com/`
+Os nomes das skills são baseadas pelo nome dos ícones da biblioteca `https://simpleicons.org/`
+O nome do Icon em "highlights" esta na biblioteca do Material UI `https://mui.com/material-ui/material-icons/` 
 Todas as informações são dinâmicas e podem ser personalizadas facilmente editando seu JSON:
-
-```jsx
-const personalData = {
-  name: "Seu Nome",
-  jobTitle: "Desenvolvedor Full Stack",
-  email: "seuemail@email.com",
-  about: "Sou um desenvolvedor apaixonado por tecnologia...",
-  projects: [
-    {
-      title: "Projeto 1",
-      description: "Breve descrição do projeto",
-      images: ["/images/projeto1-1.png", "/images/projeto1-2.png"],
-    },
-  ],
-};
-
+```json
 {
     "name": "Seu Nome",
     "birth": "--/--/----",
@@ -86,70 +73,70 @@ const personalData = {
     "img": "",
     "description": "Sou um desenvolvedor apaixonado por tecnologia...",
     "contacts": {
-      "email": "seuemail@email.com",
-      "phone": "+55 99 9 9999-9999",
-      "linkedin": "https://www.linkedin.com/",
-      "github": "https://github.com/"
+        "email": "seuemail@email.com",
+        "phone": "+55 99 9 9999-9999",
+        "linkedin": "https://www.linkedin.com/",
+        "github": "https://github.com/"
     },
     "highlights": [
-      { 
+        { 
         "title": "Dedicação", 
         "value": "30+",
         "description": "Projetos", 
         "icon": "Work"
-      },
-      { 
+        },
+        { 
         "title": "Experiência", 
         "value": "5+",
         "description": "Anos experiência", 
         "icon": "Work"
-      },
+        }
     ],
     "skills": ["JavaScript", "React", "HTML5", "CSS", "Git", "Figma"],
     "projects": [
-      {
+        {
         "img": "",
         "title": "Projeto 1",
         "description": "Descrição do Projeto" ,
         "skills": ["React", "JavaScript", "HTML5", "CSS"],
         "media": [
-          {
+            {
             "src": "/assets/images/project/image1.png",
             "type": "image"
-          },
-          {
+            },
+            {
             "src": "/assets/videos/project/video1.mp4",
             "type": "video"
-          }
+            }
         ],
         "sourceCode": {
-          "plataform": "Github",
-          "url": "https://google.com"
+            "plataform": "Github",
+            "url": "https://google.com"
         }
-      },
+        }
     ],
     "experiences": [
-      {
+        {
         "role": "Desenvolvedor",
         "company": "Empresa X",
         "period": "Janeiro 2025 - Presente",
         "description": "Desenvolvi projetos...",
         "skills": ["React", "Node.js", "SQL"]
-      }
+        }
     ],
     "education": [
-      {
+        {
         "institution": "Faculdade X",
         "degree": "Ciências da Computação",
         "year": 2025
-      },
-      {
+        },
+        {
         "institution": "Curso Y",
         "degree": "Next.js",
         "year": "Em andamento"
-      }
+        }
     ]
-  }
+}
 ```
 
 ---

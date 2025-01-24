@@ -1,0 +1,71 @@
+{
+    "name": "Seu Nome",
+    "birth": "--/--/----",
+    "profession": "Desenvolvedor Fullstack",
+    "img": "",
+    "description": "Sou um desenvolvedor apaixonado por tecnologia...",
+    "contacts": {
+        "email": "seuemail@email.com",
+        "phone": "+55 99 9 9999-9999",
+        "linkedin": "https://www.linkedin.com/",
+        "github": "https://github.com/"
+    },
+    "highlights": [
+        { 
+        "title": "Dedicação", 
+        "value": "30+",
+        "description": "Projetos", 
+        "icon": "Work"
+        },
+        { 
+        "title": "Experiência", 
+        "value": "5+",
+        "description": "Anos experiência", 
+        "icon": "Work"
+        }
+    ],
+    "skills": ["JavaScript", "React", "HTML5", "CSS", "Git", "Figma"],
+    "projects": [
+        {
+        "img": "https://cdn2.fptshop.com.vn/unsafe/Uploads/images/tin-tuc/171664/Originals/reactjs-2.jpg",
+        "title": "Projeto 1",
+        "description": "Descrição do Projeto" ,
+        "skills": ["React", "JavaScript", "HTML5", "CSS"],
+        "media": [
+            {
+            "src": "/assets/images/project/image1.png",
+            "type": "image"
+            },
+            {
+            "src": "/assets/videos/project/video1.mp4",
+            "type": "video"
+            }
+        ],
+        "sourceCode": {
+            "plataform": "Github",
+            "url": "https://google.com"
+        }
+        }
+    ],
+    "experiences": [
+        {
+        "role": "Desenvolvedor",
+        "company": "Empresa X",
+        "period": "Janeiro 2025 - Presente",
+        "description": "Desenvolvi projetos...",
+        "skills": ["React", "Nodedotjs", "JavaScript"]
+        }
+    ],
+    "education": [
+        {
+        "institution": "Faculdade X",
+        "degree": "Ciências da Computação",
+        "year": 2025
+        },
+        {
+        "institution": "Curso Y",
+        "degree": "Next.js",
+        "year": "Em andamento"
+        }
+    ]
+}

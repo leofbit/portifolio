@@ -1,3 +1,3 @@
-const JSON_URL = "";
+const JSON_URL = "src/jsonExample.json";
 
 export default JSON_URL;
