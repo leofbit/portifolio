@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom"
-import { ThemeProvider } from "@mui/material/styles";
 import { useState } from "react";
+import { ThemeProvider } from "@mui/material/styles";
 import { lightTheme, darkTheme } from "../theme/theme";
+import { CssBaseline } from "@mui/material";
 import Header from "../components/Header";
-import { Box, CssBaseline } from "@mui/material";
 import Footer from "../components/Footer";
 
 export default function Rootlayout () {

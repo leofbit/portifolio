@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography, Grid, CardActions, Button } from '@mui/material';
+import { Card, CardContent, Typography, Grid } from '@mui/material';
 import * as styles from "./Dashboard.style";
 
 export default function EducationCard({ education }) {

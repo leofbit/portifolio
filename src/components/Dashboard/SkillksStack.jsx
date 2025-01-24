@@ -1,7 +1,7 @@
-import { Button, Divider, Grid, Stack } from "@mui/material";
+import { Button, Divider, Grid, Stack, Typography } from "@mui/material";
 import * as styles from "./Dashboard.style";
 import IconComponent from "../IconComponent";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function SkillsStack ({ skills }) {
     const [slugs, setSlugs] = useState({});

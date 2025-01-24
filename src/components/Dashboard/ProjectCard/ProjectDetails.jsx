@@ -34,7 +34,7 @@ export default function ProjectModal({ open, onClose, project }) {
                         <CloseIcon />
                     </IconButton>
                     <Grid item xs={12} md={12}>
-                        <Carousel autoPlay={false} indicators={true}>
+                        <Carousel navButtonsAlwaysVisible={true} autoPlay={false} indicators={true}>
                             {project.media.map((media, index) => (
                                 media.type === "video" ? (
                                     <video 
@@ -105,11 +105,11 @@ const styles = {
         borderRadius: 2,
     },
     media: {
-        width: "100%",
+        width: "80%",
+        marginLeft: "10%",
         borderRadius: "10px",
         marginTop: '20px',
         maxHeight: "500px",
-        objectFit: "cover", 
         cursor: 'pointer', 
     },
     

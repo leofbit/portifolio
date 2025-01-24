@@ -6,7 +6,7 @@ export const gridItem = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  margin: '1rem 0',
+  margin: '2rem 0',
   width: '100%'
 };
 
@@ -18,7 +18,7 @@ export const abboutMe = {
   };
   
 export const gridButtonSkills = {
-  margin: '2rem 0'
+  margin: '4rem 0'
 };
 
 export const stackButtons = {

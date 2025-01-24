@@ -1,13 +1,17 @@
-import { Box, Typography, Grid } from "@mui/material";
+import { useContext } from "react";
+import DataContext from "../../contexts/DataContext";
 import * as styles from "./Dashboard.style";
+import { Box, Typography, Grid } from "@mui/material";
 import accountImg from "/assets/images/account.png";
-import data from '../../config/data.json';
 import ProjectCard from "./ProjectCard";
 import ExperienceCard from "./ExperienceCard";
 import SkillsStack from "./SkillksStack";
 import EducationCard from "./EducationCard";
+import HighlightCard from "./HighlightCard";
 
 export default function Dashboard() {
+    const data = useContext(DataContext)
+
     function getAge(dateString) {
         var today = new Date();
         var birthDate = new Date(dateString);
@@ -32,6 +36,7 @@ export default function Dashboard() {
                         <img src= {data.img ? data.img : accountImg} loading="lazy" style={styles.img}/>
                     </Grid>
                     <SkillsStack skills={data.skills}/>
+                    <HighlightCard highlights={data.highlights} />
                     <ProjectCard projects={data.projects}/>
                     <ExperienceCard experiences={data.experiences} />
                     <EducationCard education ={data.education}/>
