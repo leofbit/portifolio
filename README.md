@@ -143,4 +143,4 @@ Todas as informações são dinâmicas e podem ser personalizadas facilmente edi
 
 ## 👌 Demonstração
 
-Confira o portfólio em produção: [**seuportifolio.com**](https://seuportifolio.com)
+Confira o portfólio em produção: [**seuportifolio.com**](https://seuportifolio-test.netlify.app/)
